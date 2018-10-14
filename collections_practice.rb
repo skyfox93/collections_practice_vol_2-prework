@@ -41,6 +41,6 @@ def merge_data(keys,data)
 end
 
 def find_cool(data)
-  data.each{|hash| 
+  data.each{|hash|if hash.values. 
   
 
