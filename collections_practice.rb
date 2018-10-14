@@ -33,7 +33,8 @@ end
 
 def merge_data(keys,data)
   keys.each{|hash| data.each {|person|if person[hash.keys[0]]
-  person.merge(hash.values[0])binding.pry
+  person.merge(hash.values[0])
+  binding.pry
  person
  end
   }}
