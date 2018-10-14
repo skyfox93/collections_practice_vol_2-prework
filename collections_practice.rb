@@ -1,4 +1,4 @@
-# your code goes here
+require('pry')
 def begins_with_r(array)
   return_val=TRUE
   array.each do |string|
@@ -31,12 +31,11 @@ end
 list.uniq
 end
 
-def merge_data(people,data)
-  people.each{|hash| data.each{ if hash.keys[0]
-
-   end 
-
-end
-people
+def merge_data(keys,data)
+  keys.each{|hash| data.each {|person|if person[hash.keys[0]]
+  person.merge(hash.values[0])binding.pry
+ person
+ end
+  }}
 end
 
