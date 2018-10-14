@@ -41,9 +41,9 @@ def merge_data(keys,data)
 end
 
 def find_cool(data)
-  data.collect{|hash|if hash.value?("cool").compact
+  data.collect{|hash|if hash.value?("cool")
   hash 
-end}
+end}.compact
 end
 
 
