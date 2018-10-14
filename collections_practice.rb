@@ -46,7 +46,7 @@ def find_cool(data)
 end}.compact
 end
 
-def organize_schools
-  data.
+def organize_schools(schools)
+  schools.each{school|
 
 
