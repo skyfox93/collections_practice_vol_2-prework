@@ -32,12 +32,12 @@ list.uniq
 end
 
 def merge_data(keys,data)
-  keys.each{|hash| data.each {|person|
+  people=keys.collect{|hash| data.collect {|person|
   if person[hash.values[0]]
   person[hash.values[0]].merge(hash)
-  binding.pry
- person
  end
   }}
+  binding.pry
+  people
 end
 
