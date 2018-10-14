@@ -40,3 +40,6 @@ def merge_data(keys,data)
   people.flatten
 end
 
+def find_cool
+  cool=
+
