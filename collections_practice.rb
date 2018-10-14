@@ -34,7 +34,7 @@ end
 def merge_data(keys,data)
   keys.each{|hash| data.each {|person|
   if person[hash.values[0]]
-  person.merge(hash)
+  person[hash.values[0]].merge(hash)
   binding.pry
  person
  end
