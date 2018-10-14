@@ -48,7 +48,7 @@ end
 
 def organize_schools(schools)
   locations={}
-  schools.each do |school|info
+  schools.each do |school,info|
   binding.pry
   if locations[info[:location]]
   
