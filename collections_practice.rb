@@ -31,8 +31,9 @@ end
 list.uniq
 end
 
-def merge_data(keys,data)
-keys.collect 
+def merge_data(people,data)
+  people.each{|hash| data.each{ if hash.keys[0]
+
    end 
 
 end
