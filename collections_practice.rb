@@ -54,7 +54,7 @@ def organize_schools(schools)
   
     locations[info[:location]] << school
   else
-    
+    locations[info[:location]] = [school]
   
   
 
