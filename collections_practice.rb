@@ -40,6 +40,7 @@ def merge_data(keys,data)
   people.flatten
 end
 
-def find_cool
-  cool=
+def find_cool(data)
+  data.each{|hash| 
+  
 
