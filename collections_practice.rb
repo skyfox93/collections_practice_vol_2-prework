@@ -49,7 +49,6 @@ end
 def organize_schools(schools)
   locations={}
   schools.each do |school,info|
-  binding.pry
   if locations[info[:location]]
   
     locations[info[:location]] << school
@@ -57,6 +56,7 @@ def organize_schools(schools)
     locations[info[:location]] = [school]
   end
 end
+locations
 end
   
   
