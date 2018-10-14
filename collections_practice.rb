@@ -37,7 +37,6 @@ def merge_data(keys,data)
   person[hash.values[0]].merge(hash)
  end
   }}
-  binding.pry
-  people
+  people.flatten
 end
 
