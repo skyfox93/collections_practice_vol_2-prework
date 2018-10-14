@@ -46,4 +46,7 @@ def find_cool(data)
 end}.compact
 end
 
+def organize_schools
+  data.
+
 
