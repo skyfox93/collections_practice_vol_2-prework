@@ -47,6 +47,6 @@ end}.compact
 end
 
 def organize_schools(schools)
-  schools.each{school|
+  schools.each{|school|info info.
 
 
