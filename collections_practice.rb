@@ -47,6 +47,12 @@ end}.compact
 end
 
 def organize_schools(schools)
-  schools.each{|school|info info.
+  locations={}
+  schools.each do |school|info
+  binding.pry
+  if locations[info[:location]]
+    locations
+  
+  
 
 
